@@ -4,6 +4,7 @@ import URLs
 from helpers.data_generator import DataGenerate
 import copy
 
+
 @pytest.fixture
 def registration_data_generator():
     email = f'{DataGenerate.generate_random_string(10)}@yandex.ru'

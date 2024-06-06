@@ -5,6 +5,7 @@ from conftest import create_user
 import allure
 import copy
 
+
 class TestLogin:
     @allure.title('Проверка логина существующего пользователя')
     @allure.description('Создается новый пользователь и проверяется его логин')
