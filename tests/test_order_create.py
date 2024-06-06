@@ -3,8 +3,6 @@ import URLs
 from conftest import user_login
 import allure
 import copy
-import pytest
-from conftest import data_generator
 
 from helpers.data_generator import DataGenerate
 
