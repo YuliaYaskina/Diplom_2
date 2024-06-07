@@ -5,7 +5,6 @@ from conftest import create_user
 import allure
 import copy
 
-
 class TestCreateUser:
 
     def test_create_user(self, registration_data_generator):

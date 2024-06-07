@@ -5,8 +5,6 @@ from conftest import user_login
 import allure
 import copy
 
-
-
 class TestUserEdit:
     @allure.title('Проверка стутус-кода при изменении данных авторизованного пользователя')
     @allure.description('Проверяется статус-код при попытке изменить электронную почту, имя и пароль авторизованного пользователя')

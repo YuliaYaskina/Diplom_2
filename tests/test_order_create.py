@@ -4,7 +4,6 @@ from conftest import user_login
 import allure
 import copy
 
-
 from helpers.data_generator import DataGenerate
 
 
